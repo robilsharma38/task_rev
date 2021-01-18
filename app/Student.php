@@ -11,11 +11,6 @@ class Student extends Model
 {
     protected $guarded = [];
 
-    public function teacher()
-    {
-        return $this->belongsTo(Teacher::Class);
-    }
-
     public function store_student($data)
     {
         $image = $data['profile_pic'];
