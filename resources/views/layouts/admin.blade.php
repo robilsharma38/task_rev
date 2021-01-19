@@ -9,11 +9,6 @@
         <!-- App favicon -->
         <link rel="shortcut icon" href="{{url('public/admin/images/favicon.ico')}}">
         <!-- third party css -->
-        <link href="{{url('public/admin/css/vendor/dataTables.bootstrap4.css')}}" rel="stylesheet" type="text/css" />
-        <link href="{{url('public/admin/css/vendor/responsive.bootstrap4.css')}}" rel="stylesheet" type="text/css" />
-        <link href="{{url('public/admin/css/vendor/buttons.bootstrap4.css')}}" rel="stylesheet" type="text/css" />
-        <link href="{{url('public/admin/css/vendor/select.bootstrap4.css')}}" rel="stylesheet" type="text/css" />
-        <link href="{{url('public/admin/css/vendor/jquery-jvectormap-1.2.2.css')}}" rel="stylesheet" type="text/css" />
         <!-- third party css end -->
         <!-- App css -->
         <link href="{{url('public/admin/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
@@ -90,23 +85,6 @@
         <!-- bundle -->
         <script src="{{url('public/admin/js/vendor.min.js')}}"></script>
         <script src="{{url('public/admin/js/app.min.js')}}"></script>
-
-        <!-- third party js -->
-        <script src="{{url('public/admin/js/vendor/jquery.dataTables.min.js')}}"></script>
-        <script src="{{url('public/admin/js/vendor/dataTables.bootstrap4.js')}}"></script>
-        <script src="{{url('public/admin/js/vendor/dataTables.responsive.min.js')}}"></script>
-        <script src="{{url('public/admin/js/vendor/responsive.bootstrap4.min.js')}}"></script>
-        <script src="{{url('public/admin/js/vendor/dataTables.buttons.min.js')}}"></script>
-        <script src="{{url('public/admin/js/vendor/buttons.bootstrap4.min.js')}}"></script>
-        <script src="{{url('public/admin/js/vendor/buttons.html5.min.js')}}"></script>
-        <script src="{{url('public/admin/js/vendor/buttons.flash.min.js')}}"></script>
-        <script src="{{url('public/admin/js/vendor/buttons.print.min.js')}}"></script>
-        <script src="{{url('public/admin/js/vendor/dataTables.keyTable.min.js')}}"></script>
-        <script src="{{url('public/admin/js/vendor/dataTables.select.min.js')}}"></script>
-        <script src="{{url('public/admin/js/vendor/apexcharts.min.js')}}"></script>
-        <script src="{{url('public/admin/js/vendor/jquery-jvectormap-1.2.2.min.js')}}"></script>
-        <script src="{{url('public/admin/js/vendor/jquery-jvectormap-world-mill-en.js')}}"></script>
-        <!-- third party js ends -->
 
         <!-- demo app -->
         <script src="{{url('public/admin/js/pages/demo.datatable-init.js')}}"></script>
